@@ -1,2 +1,1 @@
-# epsilon
-A cool graphics renderer
+# Epsilon
