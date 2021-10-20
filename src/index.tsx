@@ -1,7 +1,7 @@
 import React, { StrictMode } from "react";
 import { render } from "react-dom";
-import App from "./App";
-import reportWebVitals from "./reportWebVitals";
+import { App } from "./components";
+import { reportWebVitals } from "./lib";
 
 import "./style.css";
 
