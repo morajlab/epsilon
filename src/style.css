@@ -7,12 +7,15 @@ body {
 }
 
 #app {
-  line-height: 0.09;
+  line-height: 0.8;
   user-select: none;
   position: fixed;
-  letter-spacing: -1;
+  letter-spacing: 0;
   inset: 0;
   margin-top: -5px;
+  color: #000;
+  background: #fff;
+  font-size: 10px;
 }
 
 .cell {

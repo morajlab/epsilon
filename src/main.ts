@@ -17,11 +17,14 @@ class App {
 (() => {
   const app = new App();
 
-  const innerWidth = window.innerWidth;
-  const innerHeight = window.innerHeight;
+  const innerWidth = 200; /* window.innerWidth */
+  const innerHeight = 80; /* window.innerHeight */
+
+  const nullCellChar = "¤";
+  const fillCellChar = "■";
 
   for (let i = 0; i < innerHeight; i++) {
-    app.app.append(Array(innerWidth).fill(".").join(""));
+    app.app.append(Array(innerWidth).fill(nullCellChar).join(""));
     app.appendChild(document.createElement("br"));
   }
 })();
