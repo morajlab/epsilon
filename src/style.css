@@ -1,1 +1,22 @@
-/* Add your global styles here */
+:root {
+  --cell-size: 1px;
+}
+
+body {
+  margin: 0;
+}
+
+#app {
+  line-height: 0.09;
+  user-select: none;
+  position: fixed;
+  letter-spacing: -1;
+  inset: 0;
+  margin-top: -5px;
+}
+
+.cell {
+  width: var(--cell-size);
+  height: var(--cell-size);
+  background-color: blueviolet;
+}

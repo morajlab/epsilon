@@ -1,9 +1,0 @@
-:root {
-  --cell-size: 1px;
-}
-
-.cell {
-  width: var(--cell-size);
-  height: var(--cell-size);
-  background-color: red;
-}
